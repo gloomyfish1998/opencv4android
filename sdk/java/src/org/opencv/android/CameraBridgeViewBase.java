@@ -402,6 +402,10 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
                 Log.e(TAG, "Mat type: " + modified);
                 Log.e(TAG, "Bitmap type: " + mCacheBitmap.getWidth() + "*" + mCacheBitmap.getHeight());
                 Log.e(TAG, "Utils.matToBitmap() throws an exception: " + e.getMessage());
+				if (mCacheBitmap != null) {
+                    mCacheBitmap.recycle();
+                    mCacheBitmap = Bitmap.createBitmap(modified.width(), modified.height(), Bitmap.Config.ARGB_8888);
+                }
                 bmpValid = false;
             }
         }
