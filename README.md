@@ -37,5 +37,7 @@ QQ:57558865 注明：opencv即可
 <b>非技术合作请勿加微信</b>
 
 微博 ： http://weibo.com/u/3181256271
+
 CSDN博客地址： http://blog.csdn.net/jia20003
+
 51CTO学院课程主页：http://edu.51cto.com/lecturer/8837804.html 
