@@ -45,8 +45,8 @@ CSDN博客地址： http://blog.csdn.net/jia20003
 
 51CTO学院课程主页：http://edu.51cto.com/lecturer/8837804.html 
 
-## known issue
+## Known Issue
  after import sdk into android studio as 3th party module! 
  
- replace apply plugin: 'com.android.application' with apply plugin: 'com.android.library'
+ replace <b>apply plugin: 'com.android.application'</b> with <b>apply plugin: 'com.android.library'</b>
 
