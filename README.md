@@ -47,5 +47,6 @@ CSDN博客地址： http://blog.csdn.net/jia20003
 
 ## known issue
  after import sdk into android studio as 3th party module! 
+ 
  replace apply plugin: 'com.android.application' with apply plugin: 'com.android.library'
 
