@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/invert"
+        android:title="@string/invert" />
+    <item android:id="@+id/edge"
+        android:title="@string/edge" />
+    <item android:id="@+id/sobel"
+        android:title="@string/sobel" />
+    <item android:id="@+id/boxBlur"
+        android:title="@string/boxBlur" />
+    <item android:id="@+id/faceDetection"
+        android:title="@string/faceDetection" />
+</menu>

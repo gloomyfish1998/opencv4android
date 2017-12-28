@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gloomyfish.opencvdemo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SectionsActivity" />
+        <activity android:name=".CharpteFrist1Activity" />
+        <activity android:name="com.book.chapter.two.ReadMatinfoActivity" />
+        <activity android:name="com.book.chapter.three.MatOperationsActivity" />
+        <activity android:name="com.book.chapter.four.ConvolutionActivity" />
+        <activity android:name="com.book.chapter.five.ImageAnalysisActivity" />
+        <activity android:name="com.book.chapter.six.Feature2dMainActivity" />
+        <activity android:name="com.book.chapter.seven.CameraViewActivity" />
+        <activity android:name="com.book.chapter.seven.DisplayModeActivity" />
+        <activity android:name="com.book.chapter.eight.OcrDemoActivity" />
+        <activity android:name="com.book.chapter.nine.BeautyFaceActivity" />
+        <activity android:name="com.book.chapter.ten.EyeRenderActivity"></activity>
+    </application>
+
+</manifest>
