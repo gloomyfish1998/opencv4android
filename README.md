@@ -14,6 +14,7 @@
 
 | 课程名称        | 语言          | 地址         |
 | ------------- |:-------------:| :-------------:|
+| OpenCV4Android摄像头应用案例实战频教程| Android| http://edu.51cto.com/course/12700.html |
 | Python+OpenCV3.3图像处理视频教程| Python| http://edu.51cto.com/course/11324.html |
 | OpenCV3.3深度神经网络(DNN)模块-应用视频教程| C++| http://edu.51cto.com/course/11516.html |
 | 人工智能之OpenCV人脸识别案例实战视频教程| C++| http://edu.51cto.com/course/10759.html |
