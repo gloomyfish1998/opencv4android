@@ -40,6 +40,9 @@ QQ:57558865 注明：opencv即可
 
 <b>非技术合作请勿加微信</b>
 
+### 关注微信公众号 - OpenCV学堂
+![](data/CVSCHOOL.jpg)
+
 微博 ： http://weibo.com/u/3181256271
 
 CSDN博客地址： http://blog.csdn.net/jia20003
